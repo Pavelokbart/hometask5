@@ -1,0 +1,288 @@
+
+.container {
+    max-width: 1170px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+}
+.tabs
+{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+.tab
+{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 30px;
+    
+
+}
+.leftpart
+{
+    margin-left: 100px;
+
+}
+.tabtxt
+{
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 60px;
+
+}
+.tabtxt1
+{
+    margin-top: 60px;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 570px;
+    
+
+    
+
+}
+.btn
+{
+    margin-top: 130px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color:  #EC7979;
+    color: #FFFFFF;
+    padding: 15px 70px;
+
+
+
+}
+.part 
+{
+    display: flex;
+    
+
+}
+.rightpart
+{
+    margin-left: 170px;
+}
+
+
+
+
+
+
+
+.ftxt {
+    margin-top: 50px;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.stxt {
+    margin-top: 75px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #86878B;
+}
+.items
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 60px;
+}
+.item__txt2
+{
+    margin-top: 20px;
+
+
+}
+
+
+
+.item__txt1
+{
+    
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+.item__txt2
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    margin-top: 30px;
+    
+    max-width: 350px; 
+    
+    
+
+
+}
+.pricing
+{   margin-top: 60px;
+    background-color: #F5F5F5;
+    
+}
+.prtxt
+{
+    font-family: "Raleway";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+.line {
+    
+    /* Делаем линию инлайновым блоком */
+    margin-top: 100px;
+    border: 1px solid #EC7979;
+    padding-left: 668px ;
+    padding-right: 670px;
+  }
+  .loremtxt
+  {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 50px;
+    color:  #86878B;
+    
+
+
+
+  }
+  .block {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+     /* Позволяет переносить блоки на новую строку при нехватке места */
+  }
+ 
+  
+  .el1
+  {
+    
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  #FFFFFF;
+    background: linear-gradient(0deg, #333333, #333333),
+    linear-gradient(0deg, #F5F5F5, #F5F5F5);
+    border: 2px solid #F5F5F5;
+    padding: 8px 150px; 
+    background-size: 100% 100%; /* Фон займет всю площадь padding */
+    background-repeat: no-repeat;
+   
+
+
+    
+     
+    
+
+
+  }
+  .el2
+  {
+    
+    font-family: "Raleway";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  #FFFFFF;
+    background: linear-gradient(0deg, #333333, #333333),
+    linear-gradient(0deg, #F5F5F5, #F5F5F5);
+    border: 2px solid #F5F5F5;
+    padding: 15px 200px; 
+    background-size: 100% 100%; /* Фон займет всю площадь padding */
+    background-repeat: no-repeat;  
+
+
+  }
+  .el3
+  {
+    padding: 8px 100px; 
+    background-size: 100% 100%; /* Фон займет всю площадь padding */
+    background-repeat: no-repeat;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF80;
+    background: linear-gradient(0deg, #333333, #333333),
+    linear-gradient(0deg, #F5F5F5, #F5F5F5);
+    border: 2px solid #F5F5F5; 
+
+    
+
+  }
+.el4
+{
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #86878B;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    padding: 8px 100px;
+    
+
+
+
+
+}
+.second
+{
+    margin-top: -40px;
+}
+
